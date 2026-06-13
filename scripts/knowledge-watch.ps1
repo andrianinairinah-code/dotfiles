@@ -13,8 +13,10 @@ function Log { param($m) "$(Get-Date -Format 'yyyy-MM-dd HH:mm') | $m" | Add-Con
 function Search-GitHub {
     param($Query, $Domain)
     try {
+        $headers = @{ Accept = "application/vnd.github.v3+json"; "User-Agent" = "knowledge-watch" }
+        if ($env:DOTFILES_GH_TOKEN) { $headers.Authorization = "token $env:DOTFILES_GH_TOKEN" }
         $url = "https://api.github.com/search/repositories?q=$([System.Web.HttpUtility]::UrlEncode($Query))&sort=stars&order=desc&per_page=5"
-        $r = Invoke-RestMethod -Uri $url -Headers @{ Accept = "application/vnd.github.v3+json"; "User-Agent" = "knowledge-watch" }
+        $r = Invoke-RestMethod -Uri $url -Headers $headers
         foreach ($item in $r.items) {
             Log "  [GH] $($item.full_name) | ⭐$($item.stargazers_count) | $($item.description)"
             Log "        → $($item.html_url)"
@@ -112,7 +114,10 @@ if ($Commit) {
     if ($changed) {
         git -C $root add -A
         git -C $root commit -m "Auto knowledge update: $summary"
-        try { git -C $root push origin main 2>&1 | Out-Null } catch { Log "Push failed (no token)" }
+        if ($env:DOTFILES_GH_TOKEN) {
+            $pushUrl = "https://andrianinairinah-code:$($env:DOTFILES_GH_TOKEN)@github.com/andrianinairinah-code/dotfiles.git"
+            try { git -C $root push $pushUrl main 2>&1 | Out-Null; Log "Push OK" } catch { Log "Push failed" }
+        } else { Log "Push skipped (no DOTFILES_GH_TOKEN)" }
         Log "Commit OK"
     } else { Log "Rien de nouveau" }
 }
