@@ -9,6 +9,7 @@
 | [[agent-devsetup]] | Configuration Dev | pre-commit, guardrails, skills setup |
 | [[agent-ops]] | Infrastructure | railway, prototype |
 | [[agent-utility]] | Utilitaires | caveman, handoff, obsidian, skills |
+| [[agent-knowledge]] | Knowledge Curator | ROUTER.md, skills, veille GitHub, amélioration continue |
 
 ## Invocation
 ```bash

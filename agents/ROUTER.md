@@ -34,4 +34,5 @@
 | plan refactor, refactor RFC, incremental | request-refactor-plan |
 | zoom out, context, bigger picture | zoom-out |
 | setup matt, agent skills, issue tracker | setup-matt-pocock-skills |
-| music, MIDI, DAW, audio, song, génération musicale, ACE-Step, Midra | *(repos in D:\musique\MUSIC IA\ — Midra, YaO, K.G.One, ACE-Step)* |
+| music, MIDI, DAW, audio, song, génération musicale, ACE-Step, Midra | music-ai-dev |
+| update knowledge, search tools, audit skills, amélioration continue | *(agent-knowledge)* |
