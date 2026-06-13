@@ -1,0 +1,14 @@
+# Secrets (API keys, TLS keys)
+opencode-config/opencode.json
+Obsidian Vault/.obsidian/plugins/local-rest-api/data.json
+
+# Temp / auto-generated Obsidian files
+Obsidian Vault/*.m4a
+Obsidian Vault/*.canvas
+Obsidian Vault/Sans titre.*
+Obsidian Vault/.obsidian/workspace.json
+Obsidian Vault/.obsidian/workspace-mobile.json
+
+# OS
+Thumbs.db
+.DS_Store
