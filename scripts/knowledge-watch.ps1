@@ -160,4 +160,7 @@ if ($Commit) {
         }
     } else { Log "Rien de nouveau" }
 }
+# Post-watch: analytics + issues + tagger (silencieux)
+& "$root\scripts\analytics-collect.ps1" -Report | Out-Null
+& "$root\scripts\github-issues.ps1" | Out-Null
 Log "Terminé"

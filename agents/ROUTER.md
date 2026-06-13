@@ -37,6 +37,8 @@
 | 2 | *zoom out, context, bigger picture, vue d'ensemble* | zoom-out |
 | 2 | *setup matt, agent skills, issue tracker, triage labels* | setup-matt-pocock-skills |
 | 3 | **music, MIDI, DAW, audio, song, génération musicale, ACE-Step, Midra** | music-ai-dev |
+| 4 | **understand, codebase, knowledge graph, comprendre, analyser code** | understand / understand-chat / understand-dashboard |
+| 4 | **understand-diff, understand-explain, understand-domain, understand-knowledge, understand-onboard** | understand-diff / understand-explain / understand-domain / understand-knowledge / understand-onboard |
 | 4 | **update knowledge, search tools, audit skills, amélioration continue, veille** | *(agent-knowledge)* |
 
 ## Notes

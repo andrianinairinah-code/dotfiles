@@ -12,6 +12,7 @@
 | [[nysoabtp]] | JavaScript | Actif | ~350 Mo |
 | [[pyton]] | Python | Actif | 831 Mo |
 | [[MySQL]] | SQL | - | 278 Mo |
+| [[Understand-Anything]] | TypeScript | Installé | 58.4k ⭐ |
 
 ---
 
