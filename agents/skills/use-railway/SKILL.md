@@ -230,6 +230,29 @@ When the user wants to create or deploy something, determine the right action fr
 
 **Naming heuristic**: app names like "flappy-bird" or "my-api" are service names, not project names. Use the directory or repo name for the project.
 
+## Deployment strategies
+
+### GitHub autodeploys (recommended over `railway up`)
+- **Enable via dashboard** : Service Settings → GitHub → Enable / Disable
+- **Manual trigger** : `CMD+K` → "Deploy Latest Commit" (sans rebuild si `redeploy` est utilisé avec cache)
+- **Wait for CI** : optionnel, attend que GitHub Actions passe avant de déployer
+- **Conditions** : au moins un membre du projet avec accès contributeur au repo GitHub
+
+### Déploiement forcé (fresh build)
+- **Via CLI (depuis le repo)** : `railway redeploy --from-source -y` — rebuild depuis le dernier commit GitHub
+- **Via CLI (depuis le dossier)** : `railway up --detach -m "message"` — upload les fichiers locaux
+- **CACHEBUST** : changer `ARG CACHEBUST=...` dans le Dockerfile pour forcer Docker à ignorer le cache layer
+
+### Windows CLI limitation
+`railway up` peut planter sur Windows avec l'erreur :
+```
+assertion failed: buf.len() <= u32::MAX as usize
+```
+Bug Rust du CLI. Solutions :
+1. Préférer `railway redeploy --from-source -y` (déploie depuis GitHub, pas d'upload)
+2. Activer GitHub autodeploys depuis le dashboard (push → auto-deploy)
+3. Si `railway up` est nécessaire, lancer depuis le dossier du projet (pas depuis `D:\admin`)
+
 ## Response format
 
 For all operational responses, return:
