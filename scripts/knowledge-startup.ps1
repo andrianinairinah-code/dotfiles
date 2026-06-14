@@ -46,7 +46,7 @@ $digestDate = if (Test-Path $digestFile) { Get-Date (Get-Content $digestFile) } 
 $reports = @()
 if ($digestDate -lt $today) {
     $reports += "---"
-    $reports += "**Daily Digest — $(Get-Date -Format 'dddd dd MMM')**"
+    $reports += "**Daily Digest - $(Get-Date -Format 'dddd dd MMM')**"
     $reports += "- Session #$sessionNum"
     if ($fixes) { $reports += "- Auto-fix: $($fixes -join ', ')" } else { $reports += "- Aucun fix nécessaire" }
     $lastLog = Get-Content $sessionLog -Tail 3
@@ -54,6 +54,10 @@ if ($digestDate -lt $today) {
     Set-Content $digestFile (Get-Date -Format 'o')
     $reports -join "`n" | Add-Content $sessionLog
 }
+
+# ---- 4. OBSIDIAN NOTES : sync-back + tagger (silencieux) ----
+& "$root\scripts\obsidian-sync-back.ps1" | Out-Null
+& "$root\scripts\obsidian-tagger.ps1" | Out-Null
 
 # ---- OUTPUT ----
 $issues = @()

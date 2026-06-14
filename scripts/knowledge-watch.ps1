@@ -160,7 +160,9 @@ if ($Commit) {
         }
     } else { Log "Rien de nouveau" }
 }
-# Post-watch: analytics + issues + tagger (silencieux)
+# Post-watch: analytics + issues + obsidian tools (silencieux)
 & "$root\scripts\analytics-collect.ps1" -Report | Out-Null
 & "$root\scripts\github-issues.ps1" | Out-Null
+& "$root\scripts\obsidian-sync-back.ps1" | Out-Null
+& "$root\scripts\obsidian-tagger.ps1" | Out-Null
 Log "Terminé"
