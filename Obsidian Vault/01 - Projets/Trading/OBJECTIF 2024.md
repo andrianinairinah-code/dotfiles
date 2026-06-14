@@ -1,3 +1,6 @@
+---
+tags: trading dev/code
+---
 # OBJECTIF 2024
 
 - **Type** : Études — Trading & Poker
@@ -13,3 +16,4 @@
 ## Liens
 
 [[Trading|⬆ Retour au Trading]]
+

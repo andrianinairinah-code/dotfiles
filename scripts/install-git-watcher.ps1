@@ -3,6 +3,7 @@
 
 $action = New-ScheduledTaskAction -Execute "powershell.exe" -Argument "-NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File D:\dotfiles\scripts\git-watch.ps1"
 $trigger = New-ScheduledTaskTrigger -AtLogOn
+$principal = New-ScheduledTaskPrincipal -UserId $env:USERNAME -LogonType S4U -RunLevel Limited
 $settings = New-ScheduledTaskSettingsSet -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries
-Register-ScheduledTask -TaskName "Git Watch" -Action $action -Trigger $trigger -Settings $settings -Force
+Register-ScheduledTask -TaskName "Git Watch" -Action $action -Trigger $trigger -Settings $settings -Principal $principal -Force
 Write-Host "[OK] Git Watch installé — démarre au login"

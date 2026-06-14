@@ -1,3 +1,6 @@
+---
+tags: dev/ai dev/architecture
+---
 # Agent: Architect
 
 **Rôle** : Architecture & Design Logiciel
@@ -21,3 +24,4 @@
 - "Prototype cette idée"
 
 [[Agents|⬆ Index des Agents]]
+

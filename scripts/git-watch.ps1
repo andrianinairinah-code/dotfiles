@@ -1,7 +1,7 @@
 # Git Watch — commit + push auto sur détection de changements
 # Usage: powershell -File git-watch.ps1 (s'exécute en arrière-plan)
 
-$root = "D:\dotfiles"
+. "$PSScriptRoot\_config.ps1"
 $logFile = "$root\scripts\git-watch.log"
 $watcher = New-Object System.IO.FileSystemWatcher
 $watcher.Path = $root
@@ -34,8 +34,10 @@ while ($true) {
             git -C $root add -A
             git -C $root commit -m "Auto-sync: $count fichiers modifiés" --quiet
             if ($env:DOTFILES_GH_TOKEN) {
-                $pushUrl = "https://andrianinairinah-code:$($env:DOTFILES_GH_TOKEN)@github.com/andrianinairinah-code/dotfiles.git"
-                git -C $root push $pushUrl main --quiet 2>&1 | Out-Null
+                $cred = "protocol=https`nhost=github.com`nusername=andrianinairinah-code`npassword=$($env:DOTFILES_GH_TOKEN)`n"
+                $cred | git -C $root credential reject | Out-Null
+                $cred | git -C $root credential approve | Out-Null
+                git -C $root push origin main --quiet 2>&1 | Out-Null
             }
             "$(Get-Date -Format 'yyyy-MM-dd HH:mm') | Auto-commit: $count fichiers" | Add-Content $logFile
         }

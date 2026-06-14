@@ -1,3 +1,6 @@
+---
+tags: music/pedagogy trading dev/ai
+---
 # BootN8N Agent
 
 - **Type** : Agent — n8n-MCP & Trading
@@ -17,3 +20,4 @@ Documentation complète pour l'intégration des outils n8n dans le système de t
 ## Liens
 
 [[Agents|⬆ Index des Agents]] | [[../01 - Projets/Trading/Trading|Trading]]
+

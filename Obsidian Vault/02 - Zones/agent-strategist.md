@@ -1,3 +1,6 @@
+---
+tags: dev/ai dev/architecture
+---
 # Agent: Strategist
 
 **Rôle** : Stratégie & Planning
@@ -23,3 +26,4 @@
 - "Plannifie le refactoring de X"
 
 [[Agents|⬆ Index des Agents]]
+

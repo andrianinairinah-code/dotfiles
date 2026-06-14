@@ -1,7 +1,7 @@
 # Skill Usage Analytics — track skill loads, auto-archive unused
 param([switch]$Report)
 
-$root = "D:\dotfiles"
+. "$PSScriptRoot\_config.ps1"
 $logFile = "$root\scripts\.skill-usage.csv"
 $skillsDir = "$root\agents\skills"
 $archiveDir = "$root\agents\_archived"

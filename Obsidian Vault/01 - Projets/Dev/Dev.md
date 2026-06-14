@@ -1,3 +1,6 @@
+---
+tags: trading dev/ai dev/code
+---
 # 💻 Projets Développement
 
 | Projet | Stack | Statut | Taille |
@@ -17,3 +20,4 @@
 ---
 
 **Projets liés** : [[../Trading/Trading|📈 Trading]] | [[../Musique/Musique|🎵 Musique]]
+

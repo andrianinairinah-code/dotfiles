@@ -1,3 +1,6 @@
+---
+tags: trading dev/ai dev/obsidian dev/debug dev/code
+---
 # Index des Projets
 
 Bienvenue sur l'index central de tous mes projets.
@@ -18,3 +21,8 @@ FROM "01 - Projets"
 WHERE status
 SORT file.folder ASC
 ```
+
+- [[Session Log 2026-06-14]] — Fix freeze OpenCode + MCP Obsidian
+
+- [[OpenCode — Experience et Lecons Apprises]] — Guide config nouvel ordi + dépannage
+

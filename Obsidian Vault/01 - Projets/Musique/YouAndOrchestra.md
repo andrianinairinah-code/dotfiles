@@ -1,3 +1,6 @@
+---
+tags: music/pedagogy music/ai dev/ai dev/code
+---
 # YouAndOrchestra (YaO)
 
 - **GitHub**: https://github.com/shibuiwilliam/YouAndOrchestra
@@ -9,3 +12,4 @@ Environnement de production musicale agentique. 7 sous-agents IA, 34 règles de 
 
 ## Utilité pour le projet
 Orchestrer un agent qui adapte les exercices au niveau de l'élève + critique automatique.
+

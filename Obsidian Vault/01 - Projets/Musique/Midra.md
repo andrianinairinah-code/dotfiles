@@ -1,3 +1,6 @@
+---
+tags: music/pedagogy music/ai dev/ai dev/code
+---
 # Midra
 
 - **GitHub**: https://github.com/XIAODUOLU/Midra
@@ -9,3 +12,4 @@ Prompt-to-code MIDI composition framework. Transforme du langage naturel en code
 
 ## Utilité pour le projet
 Générer des patterns d'exercices (gammes, arpèges, rythmes) à partir de prompts.
+

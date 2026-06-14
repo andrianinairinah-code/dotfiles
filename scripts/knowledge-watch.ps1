@@ -1,7 +1,7 @@
 # Knowledge Watch v2 — multi-source, rapport hebdo, notification desktop
 param([switch]$Commit, [string]$Domain, [switch]$Weekly)
 
-$root = "D:\dotfiles"
+. "$PSScriptRoot\_config.ps1"
 $router = "$root\agents\ROUTER.md"
 $logFile = "$root\scripts\knowledge-watch.log"
 $stateFile = "$root\scripts\.last-watch-state"
@@ -155,8 +155,10 @@ if ($Commit) {
         git -C $root add -A
         git -C $root commit -m "Knowledge watch: $summary"
         if ($env:DOTFILES_GH_TOKEN) {
-            $pushUrl = "https://andrianinairinah-code:$($env:DOTFILES_GH_TOKEN)@github.com/andrianinairinah-code/dotfiles.git"
-            try { git -C $root push $pushUrl main 2>&1 | Out-Null; Log "Push OK" } catch { Log "Push failed" }
+            $cred = "protocol=https`nhost=github.com`nusername=andrianinairinah-code`npassword=$($env:DOTFILES_GH_TOKEN)`n"
+            $cred | git -C $root credential reject | Out-Null
+            $cred | git -C $root credential approve | Out-Null
+            try { git -C $root push origin main 2>&1 | Out-Null; Log "Push OK" } catch { Log "Push failed" }
         }
     } else { Log "Rien de nouveau" }
 }

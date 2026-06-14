@@ -2,8 +2,8 @@
 # Usage: powershell -File obsidian-sync-back.ps1
 param([switch]$Suggest)
 
+. "$PSScriptRoot\_config.ps1"
 $vault = "$root\Obsidian Vault"
-$root = "D:\dotfiles"
 $router = "$root\agents\ROUTER.md"
 $knownNotes = "$root\scripts\.known-notes"
 

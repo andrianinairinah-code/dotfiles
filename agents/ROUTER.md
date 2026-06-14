@@ -23,7 +23,7 @@
 | 2 | *PRD, spec, plan, feature spec, product requirement* | to-prd / to-issues |
 | 2 | *teach, learn, tutorial, explain, concept* | teach |
 | 2 | *exercise, course, scaffold, problem, exercice* | scaffold-exercises |
-| 2 | *article, writing, edit, revise, draft, rédaction* | edit-article / writing-beats / writing-shape |
+| 2 | *article, writing, edit, revise, draft, rédaction, fragments* | edit-article / writing-beats / writing-shape / writing-fragments |
 | 2 | *ubiquitous, domain, glossary, DDD, terminologie, ubiquitous language* | ubiquitous-language |
 | 2 | *skill, new skill, write skill, créer skill* | write-a-skill |
 | 3 | **handoff, hand off, transfer, resume, reprendre** | handoff |
@@ -36,6 +36,7 @@
 | 3 | **plan refactor, refactor RFC, refactoring plan** | request-refactor-plan |
 | 2 | *zoom out, context, bigger picture, vue d'ensemble* | zoom-out |
 | 2 | *setup matt, agent skills, issue tracker, triage labels* | setup-matt-pocock-skills |
+| 3 | **config opencode, opencode settings, junction, freeze, crash, dépanne, ne s'ouvre pas** | customize-opencode |
 | 3 | **music, MIDI, DAW, audio, song, génération musicale, ACE-Step, Midra** | music-ai-dev |
 | 4 | **understand, codebase, knowledge graph, comprendre, analyser code** | understand / understand-chat / understand-dashboard |
 | 4 | **understand-diff, understand-explain, understand-domain, understand-knowledge, understand-onboard** | understand-diff / understand-explain / understand-domain / understand-knowledge / understand-onboard |

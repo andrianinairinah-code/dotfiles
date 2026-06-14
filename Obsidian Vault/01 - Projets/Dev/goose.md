@@ -1,3 +1,6 @@
+---
+tags: dev/ai dev/code
+---
 # goose
 
 - **Type** : Développement — Agent IA
@@ -8,3 +11,4 @@
 ## Liens
 
 [[Dev|⬆ Retour au Dev]]
+

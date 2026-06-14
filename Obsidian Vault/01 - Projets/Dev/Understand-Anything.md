@@ -1,3 +1,6 @@
+---
+tags: dev/ai dev/code
+---
 # Understand-Anything
 
 - **GitHub**: https://github.com/Egonex-AI/Understand-Anything
@@ -21,3 +24,4 @@ Transforme n'importe quel codebase en graphe de connaissances interactif. Multi-
 ```
 
 - **Lié à** : [[Dev]], [[../Musique/Musique]]
+

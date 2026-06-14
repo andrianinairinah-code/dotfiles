@@ -1,3 +1,6 @@
+---
+tags: music/ai dev/architecture dev/code
+---
 # ACE-Step
 
 - **GitHub**: https://github.com/ace-step/ACE-Step
@@ -14,3 +17,4 @@ Support voix, lyric editing, remixing, track generation.
 pip install -e .
 ace-step --prompt "blues progression in A" --output output.wav
 ```
+

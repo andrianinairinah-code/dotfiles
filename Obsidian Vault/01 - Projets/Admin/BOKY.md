@@ -1,3 +1,6 @@
+---
+tags: dev/code
+---
 # BOKY
 
 - **Type** : Bibliothèque — Livres & Documents
@@ -11,3 +14,4 @@
 ## Liens
 
 [[Admin|⬆ Retour au Admin]]
+

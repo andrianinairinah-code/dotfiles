@@ -1,3 +1,6 @@
+---
+tags: dev/ai dev/infra dev/architecture
+---
 # Agent: Ops
 
 **Rôle** : Infrastructure & Déploiement
@@ -19,3 +22,4 @@
 - "Check le status des déploiements"
 
 [[Agents|⬆ Index des Agents]]
+

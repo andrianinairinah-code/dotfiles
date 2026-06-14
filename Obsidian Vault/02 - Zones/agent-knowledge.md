@@ -1,3 +1,6 @@
+---
+tags: music/ai trading dev/ai dev/obsidian dev/architecture
+---
 # Agent: Knowledge Curator
 
 - **Rôle**: Maintient ROUTER.md, skills, veille technologique continue

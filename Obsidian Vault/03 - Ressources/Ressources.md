@@ -1,3 +1,6 @@
+---
+tags: dev/ai dev/obsidian dev/debug dev/code
+---
 # 📚 Ressources
 
 | Note | Description |
@@ -12,3 +15,4 @@ TABLE file.folder AS "Catégorie"
 FROM "03 - Ressources"
 SORT file.name ASC
 ```
+

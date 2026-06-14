@@ -1,3 +1,6 @@
+---
+tags: dev/ai dev/debug
+---
 # nysoabtp-agent
 
 - **Type** : Agent — Développement Web BTP
@@ -21,3 +24,4 @@
 ## Liens
 
 [[Agents|⬆ Index des Agents]]
+

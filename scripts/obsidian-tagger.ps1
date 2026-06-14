@@ -1,7 +1,7 @@
 # Obsidian Auto-Tagger — tagge les nouvelles notes selon leur contenu
 param()
 
-$root = "D:\dotfiles"
+. "$PSScriptRoot\_config.ps1"
 $vault = "$root\Obsidian Vault"
 $knownFile = "$root\scripts\.known-notes"
 

@@ -1,3 +1,6 @@
+---
+tags: trading dev/ai dev/code
+---
 # SMC-Framework
 
 - **Type** : Développement — Framework Coach
@@ -13,3 +16,4 @@ Framework pour coach, avec skill SMC.
 ## Liens
 
 [[Dev|⬆ Retour au Dev]]
+

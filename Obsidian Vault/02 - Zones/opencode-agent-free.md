@@ -1,3 +1,6 @@
+---
+tags: trading dev/ai
+---
 # opencode-agent-free
 
 - **Type** : Agent OpenCode principal
@@ -19,3 +22,4 @@ Projet OpenCode avec mémoire multi-agent. Utilise multi-agent-memo pour la mém
 ## Liens
 
 [[Agents|⬆ Index des Agents]] | [[deep-research-agent]] | [[SMC-Framework-Coach]]
+

@@ -1,8 +1,9 @@
 param([switch]$Quiet)
 
-$root = "D:\dotfiles"
+. "$PSScriptRoot\_config.ps1"
 $router = "$root\agents\ROUTER.md"
-$sessionLog = "$root\Obsidian Vault\02 - Zones\Session Log.md"
+$today = Get-Date -Format 'yyyy-MM-dd'
+$sessionLog = "$root\Obsidian Vault\02 - Zones\Session Log $today.md"
 $lastCheck = "$root\scripts\.last-startup-check"
 $sessionCountFile = "$root\scripts\.session-count"
 $watchState = "$root\scripts\.last-watch-state"

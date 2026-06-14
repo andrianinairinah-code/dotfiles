@@ -1,3 +1,6 @@
+---
+tags: dev/debug
+---
 # Mandimby / nysoabtp
 
 - **Type** : Développement — Projet Web BTP
@@ -15,3 +18,4 @@
 ## Liens
 
 [[Dev|⬆ Retour au Dev]] | [[nysoabtp]]
+

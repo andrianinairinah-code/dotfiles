@@ -1,3 +1,6 @@
+---
+tags: music/pedagogy dev/ai dev/obsidian
+---
 # Agent: Writer
 
 **Rôle** : Rédaction & Documentation
@@ -25,3 +28,4 @@
 - "Crée des exercices sur Z"
 
 [[Agents|⬆ Index des Agents]]
+

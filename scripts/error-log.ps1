@@ -1,7 +1,7 @@
 # Error Log Analysis — scanne les logs d'erreur courants et les logue dans Obsidian
 param()
 
-$root = "D:\dotfiles"
+. "$PSScriptRoot\_config.ps1"
 $obsidianNotes = "$root\Obsidian Vault\03 - Ressources"
 $errorLogFile = "$root\scripts\.error-log.csv"
 $sources = @(

@@ -1,3 +1,6 @@
+---
+tags: trading dev/ai
+---
 # SMC-Framework-Coach
 
 - **Type** : Agent — Framework Coach Trading
@@ -26,3 +29,4 @@ Framework SMC M1 multi-symboles avec filtre de régime TdMatch + exemption zone-
 ## Liens
 
 [[Agents|⬆ Index des Agents]] | [[opencode-agent-free]]
+

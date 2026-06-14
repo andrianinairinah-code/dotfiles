@@ -1,3 +1,6 @@
+---
+tags: dev/ai dev/obsidian
+---
 # Agent: Utility
 
 **Rôle** : Outils & Utilitaires
@@ -21,3 +24,4 @@
 - "Crée une skill pour X"
 
 [[Agents|⬆ Index des Agents]]
+

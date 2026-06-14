@@ -1,3 +1,6 @@
+---
+tags: dev/ai
+---
 # ROUTER — Système de Routage des Skills
 
 **Fichier source** : `D:\dotfiles\agents\ROUTER.md` (backup git)
@@ -16,3 +19,4 @@ Voir le fichier ROUTER.md pour la liste complète des mappings.
 - Skill inutilisée 30 jours → archivage
 
 **Lié à** : [[agent-knowledge]], [[../agents/skills]]
+

@@ -1,3 +1,6 @@
+---
+tags: music/ai dev/architecture dev/code
+---
 # K.G.One Music Studio
 
 - **GitHub**: https://github.com/KGAudioLab/K.G.One
@@ -9,3 +12,4 @@ Interface DAW browser + backend API local.
 
 ## Utilité pour le projet
 Plateforme clé en main pour intégrer génération audio + séparation de pistes.
+

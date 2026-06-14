@@ -1,3 +1,6 @@
+---
+tags: music/pedagogy music/ai dev/ai dev/code
+---
 # Projets Musique
 
 | Projet | Type | Taille |
@@ -18,3 +21,4 @@
 | [[K.G.One]] | Studio IA local complet (ACE-Step + stem separation) |
 
 **Projets liés** : [[../Dev/Dev|Developpement]]
+

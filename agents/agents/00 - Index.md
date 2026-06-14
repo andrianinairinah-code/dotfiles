@@ -10,6 +10,7 @@
 | [[agent-ops]] | Infrastructure | railway, prototype |
 | [[agent-utility]] | Utilitaires | caveman, handoff, obsidian, skills |
 | [[agent-knowledge]] | Knowledge Curator | ROUTER.md, skills, veille GitHub, amélioration continue |
+| [[agent-diagnostic]] | Diagnostic & Dépannage | customize-opencode, diagnose, zoom-out |
 
 ## Invocation
 ```bash

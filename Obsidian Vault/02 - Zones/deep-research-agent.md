@@ -1,3 +1,6 @@
+---
+tags: dev/ai dev/code
+---
 # deep-research-agent
 
 - **Type** : Skill — Recherche approfondie
@@ -19,3 +22,4 @@ uv run scripts/research.py start   # Lancer une recherche
 ## Liens
 
 [[Agents|⬆ Index des Agents]] | [[opencode-agent-free]]
+

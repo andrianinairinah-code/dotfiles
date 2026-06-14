@@ -1,3 +1,6 @@
+---
+tags: dev/code
+---
 # INCUBATION 2024-2025
 
 - **Type** : Administration — Projet MIHARY
@@ -11,3 +14,4 @@ Suivi d'incubation, rapports d'activité, business plans, formations en élevage
 ## Liens
 
 [[Admin|⬆ Retour au Admin]] | [[MIHARY 2024]]
+

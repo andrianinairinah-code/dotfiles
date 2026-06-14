@@ -1,3 +1,6 @@
+---
+tags: trading dev/code
+---
 # 📈 Projets Trading & Poker
 
 | Projet | Type | Taille |
@@ -16,3 +19,4 @@
 ---
 
 **Projets liés** : [[../Dev/Dev|💻 Développement]] | [[../Admin/Admin|📋 Administration]]
+

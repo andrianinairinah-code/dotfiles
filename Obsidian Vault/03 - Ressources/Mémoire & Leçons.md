@@ -1,3 +1,6 @@
+---
+tags: music/pedagogy trading dev/ai dev/obsidian dev/infra dev/debug dev/architecture dev/code
+---
 # 🧠 Mémoire & Leçons Apprises
 
 Extraites de toutes les sessions d'agents. Mise à jour : 2026-06-12.
@@ -7,7 +10,7 @@ Extraites de toutes les sessions d'agents. Mise à jour : 2026-06-12.
 ## Bonnes Pratiques Générales
 
 ### Workflow Agent
-- **Écrire le plan avant le code** — `#blocker #todo` : ne jamais commencer sans validation du plan
+- **Écrire le plan avant le code** — `#blocker [[todo]]` : ne jamais commencer sans validation du plan
 - **Séparer les audits du projet** — Dossier indépendant `AUDIT_CORRECTIONS/` pas à l'intérieur du projet
 - **Documenter chaque décision** avec `#decision` dans `AGENTS.md`
 - **Logguer chaque fix** avec `#fix` pour traçabilité
@@ -110,7 +113,7 @@ curl -k -H "Authorization: Bearer KEY" https://127.0.0.1:27124/vault/
 
 1. ✅ **Pipeline pur d'abord** — ML/features complexes seulement après validation baseline
 2. ✅ **1 paire pour valider** — multi-paires = overfitting
-3. ✅ **Plan avant code** — `#blocker #todo` jamais ignoré
+3. ✅ **Plan avant code** — `#blocker [[todo]]` jamais ignoré
 4. ✅ **Backup avant tout** — MetaQuotes-Demo supprimé par erreur = leçon douloureuse
 5. ✅ **Catégoriser immédiatement** — un dossier par type de projet
 6. ✅ **Mémoire persistante** — `multi-agent-memo` ou `claude-mem` pour éviter de réapprendre
@@ -124,3 +127,4 @@ TABLE file.folder AS "Catégorie"
 FROM "03 - Ressources"
 SORT file.name ASC
 ```
+

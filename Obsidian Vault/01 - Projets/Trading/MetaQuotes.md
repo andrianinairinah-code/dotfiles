@@ -1,3 +1,6 @@
+---
+tags: trading dev/code
+---
 # MetaQuotes
 
 - **Type** : Trading — Plateforme MT
@@ -11,3 +14,4 @@ Plateforme MetaTrader (MT4/MT5). Grosse volumétrie, à inspecter pour nettoyage
 ## Liens
 
 [[Trading|⬆ Retour au Trading]]
+

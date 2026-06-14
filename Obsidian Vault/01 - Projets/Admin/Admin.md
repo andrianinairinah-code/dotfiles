@@ -1,3 +1,6 @@
+---
+tags: trading dev/code
+---
 # 📋 Projets Administration
 
 | Projet | Type | Taille |
@@ -20,3 +23,4 @@
 ---
 
 **Projets liés** : [[../Trading/Trading|📈 Trading]]
+

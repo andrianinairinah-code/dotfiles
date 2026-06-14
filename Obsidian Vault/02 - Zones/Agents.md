@@ -1,3 +1,6 @@
+---
+tags: trading dev/ai dev/obsidian dev/infra dev/debug dev/architecture dev/code
+---
 # 🤖 Index des Agents
 
 Tous les agents, skills et configurations d'agents IA.
@@ -15,6 +18,7 @@ Tous les agents, skills et configurations d'agents IA.
 | [[agent-devsetup]] | Configuration Dev | pre-commit, guardrails, skills setup |
 | [[agent-ops]] | Infrastructure & Déploiement | railway, prototype |
 | [[agent-utility]] | Utilitaires | caveman, handoff, obsidian, skills |
+| [[agent-diagnostic]] | Diagnostic & Dépannage | customize-opencode, diagnose, zoom-out |
 
 ## Projets Agents
 
@@ -59,3 +63,4 @@ FROM "02 - Zones"
 WHERE type
 SORT file.name ASC
 ```
+

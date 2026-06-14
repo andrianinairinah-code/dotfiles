@@ -1,3 +1,6 @@
+---
+tags: dev/ai
+---
 # Agent: DevSetup
 
 **Rôle** : Configuration & Infrastructure Dev
@@ -19,3 +22,4 @@
 - "Setup les skills engineering"
 
 [[Agents|⬆ Index des Agents]]
+

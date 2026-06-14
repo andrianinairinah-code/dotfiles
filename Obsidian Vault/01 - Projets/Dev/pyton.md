@@ -1,3 +1,6 @@
+---
+tags: music/pedagogy music/ai dev/code
+---
 # pyton
 
 - **Type** : Développement — Python (Guitare + Outils)
@@ -14,3 +17,4 @@
 ## Liens
 
 [[Dev|⬆ Retour au Dev]] | [[../Musique/Musique|Musique]]
+

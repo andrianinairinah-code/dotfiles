@@ -1,3 +1,6 @@
+---
+tags: dev/ai dev/debug
+---
 # Agent: QA/Test
 
 **Rôle** : Quality Assurance & Tests
@@ -22,3 +25,4 @@
 - "Session QA sur la branche feature/Z"
 
 [[Agents|⬆ Index des Agents]]
+

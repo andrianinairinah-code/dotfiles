@@ -1,3 +1,6 @@
+---
+tags: music/pedagogy trading dev/obsidian dev/code
+---
 # 🗄️ Projets Archivés
 
 | Projet | Type | Taille | Note |
@@ -12,3 +15,4 @@
 ---
 
 **Dossiers vides** (à supprimer) : `gg`, `logiciel guitar`, `Nouveau dossier`, `RAIL`
+

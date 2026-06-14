@@ -1,3 +1,6 @@
+---
+tags: dev/architecture dev/code
+---
 <%*
 const projectName = await tp.system.prompt("📛 Nom du projet ?");
 const projectType = await tp.system.suggester(
@@ -74,3 +77,4 @@ npm run lint
 ---
 
 _Généré le <% tp.date.now("YYYY-MM-DD HH:mm") %>_
+

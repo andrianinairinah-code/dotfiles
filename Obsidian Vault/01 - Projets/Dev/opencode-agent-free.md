@@ -1,3 +1,6 @@
+---
+tags: dev/ai
+---
 # opencode-agent-free
 
 - **Type** : Développement — Agent IA
@@ -12,3 +15,4 @@ Agent de codage IA en ligne de commande. Projet principal.
 ## Liens
 
 [[Dev|⬆ Retour au Dev]]
+

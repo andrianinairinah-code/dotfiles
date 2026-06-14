@@ -1,7 +1,7 @@
 # GitHub Issues Auto-Detect — cherche les issues pertinentes pour nos projets
 param()
 
-$root = "D:\dotfiles"
+. "$PSScriptRoot\_config.ps1"
 $logFile = "$root\scripts\github-issues.log"
 $watchFile = "$root\scripts\.known-issues"
 

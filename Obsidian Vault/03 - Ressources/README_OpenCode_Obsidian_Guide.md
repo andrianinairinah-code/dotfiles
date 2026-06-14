@@ -1,3 +1,6 @@
+---
+tags: dev/ai dev/obsidian dev/infra dev/debug dev/architecture dev/code
+---
 # 🚀 OpenCode + Obsidian — Guide Complet
 
 > Ce guide explique comment exploiter **OpenCode** (agent IA de codage) avec **Obsidian** (vault de connaissances) pour créer un workflow de développement intelligent, 100% gratuit.
@@ -240,7 +243,7 @@ Configuration `opencode.json` :
 | **Rechercher** | `"Cherche tous les fichiers mentionnant 'authentification'"` |
 | **Créer une note** | `"Crée une note dans 01-Projets/ avec le template AGENTS"` |
 | **Modifier une section** | `"Ajoute une tâche dans la section 'TODO' de [[Projet]]"` |
-| **Lister les tags** | `"Quels sont mes projets #nodejs ?"` |
+| **Lister les tags** | `"Quels sont mes projets [[nodejs]] ?"` |
 | **Exécuter un template** | `"Exécute le template 'Nouveau Projet' avec le nom 'mon-api'"` |
 
 ---
@@ -597,3 +600,4 @@ Configurez des raccourcis `$` dans QuickAdd :
 ---
 
 *Généré le 2026-06-12 — OpenCode + Obsidian Guide*
+

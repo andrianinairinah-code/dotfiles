@@ -1,3 +1,6 @@
+---
+tags: music/pedagogy dev/ai dev/obsidian dev/infra dev/debug dev/architecture
+---
 # 🧩 Skills Globales
 
 Toutes les skills installées dans `~/.agents/skills/` (30 skills).
@@ -57,3 +60,4 @@ Toutes les skills installées dans `~/.agents/skills/` (30 skills).
 ## Liens
 
 [[Agents|⬆ Index des Agents]]
+
