@@ -108,3 +108,15 @@ Tous dans `D:\dotfiles\scripts\` :
 3. Vérifier que `opencode --version` retourne un numéro de version (sinon binaire corrompu)
 4. Les fichiers `opencode.*` dans `C:\Users\PLY\AppData\Roaming\npm\` ne doivent PAS être renommés
 
+---
+## Session 1 — 2026-06-14 12:18
+- **Skills actives** : 39
+- **Routes ROUTER** : 31
+- **Auto-fix** : aucun
+- **Veille** : jamais
+
+---
+**Daily Digest - dimanche 14 juin**
+- Session #1
+- Aucun fix nécessaire
+- Dernière session: 12:18
